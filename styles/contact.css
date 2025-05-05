@@ -1,0 +1,22 @@
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact .address {
+  text-justify: inter-word;
+}
+
+.contact .address h2 {
+  font-size: 40px;
+}
+
+.contact .address h2 span {
+  color: yellow;
+}
+
+.contact .address p {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 26px;
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+  }
+
+  .main-header .right {
+    width: 100%;
+  }
+
+  .main-header .right nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-header .right nav a {
+    padding: 4px;
+    width: 100%;
+  }
+}

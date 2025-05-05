@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+li::marker,
+.fa-facebook {
+  color: white;
+}
+
+html {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+div.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+header .logo {
+  max-width: 100px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.right {
+  width: 60%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right nav {
+  height: 100%;
+}
+
+.right nav a {
+  color: yellow;
+  background-color: coral;
+  text-decoration: none;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid blue;
+}
+
+.right nav a:hover {
+  color: #ddd;
+  border: 1px solid yellow;
+}
+
+.main-banner {
+  width: 100%;
+}
+
+.bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bottom-footer p {
+  height: 32px;
+  text-align: center;
+}

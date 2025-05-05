@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+  .intro .left h1 {
+    padding-top: 40px;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .food h2 {
+    margin-left: 24px;
+  }
+
+  .intro .left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .intro .right {
+    display: none;
+  }
+
+  .foods .food-item {
+    width: 100%;
+  }
+}

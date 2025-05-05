@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro .left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .intro .right {
+    width: 100%;
+    height: 450px;
+  }
+
+  .intor .right img {
+    width: 100;
+  }
+
+  .foods .food-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .intro .left {
+    width: 100%;
+  }
+
+  .intro .left h2 {
+    font-size: 30px;
+  }
+
+  .intro .left p {
+    font-size: 20px;
+  }
+
+  .intro .right {
+    width: 100%;
+    height: 350px;
+  }
+}

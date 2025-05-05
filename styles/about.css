@@ -1,0 +1,31 @@
+.intro {
+  display: flex;
+  gap: 16px;
+}
+
+.intro .left {
+  width: 50%;
+}
+
+.intro .left h1 {
+  padding-top: 60px;
+  font-size: 60px;
+}
+
+.intro .left p {
+  padding-top: 30px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.intro .left h1 span {
+  color: yellow;
+}
+
+.intro .right {
+  background-image: url("../images/Beny-lokal.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 450px;
+  border-radius: 14px;
+}
