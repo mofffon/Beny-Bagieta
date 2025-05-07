@@ -77,3 +77,11 @@ nav {
   height: 40px;
   text-align: center;
 }
+
+.bottom-footer a {
+  align-self: center;
+}
+
+.fa-facebook {
+  font-size: 30px;
+}
