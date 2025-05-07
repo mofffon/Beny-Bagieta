@@ -18,5 +18,10 @@
 .contact .address p {
   margin-top: 16px;
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
+}
+
+.contact .address h3 {
+  margin-top: 16px;
+  font-size: 32px;
 }

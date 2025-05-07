@@ -3,4 +3,16 @@
     flex-direction: column;
     justify-content: start;
   }
+
+  .contact .address h2 {
+    font-size: 35px;
+  }
+
+  .contact .address p {
+    font-size: 25px;
+  }
+
+  .contact .address h3 {
+    font-size: 30px;
+  }
 }

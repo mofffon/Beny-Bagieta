@@ -1,6 +1,7 @@
 .intro {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .intro .left {
@@ -8,7 +9,7 @@
 }
 
 .intro .left h1 {
-  padding-top: 60px;
+  padding-top: 40px;
   font-size: 60px;
 }
 
@@ -22,10 +23,6 @@
   color: yellow;
 }
 
-.intro .right {
-  background-image: url("../images/Beny-lokal.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 450px;
-  border-radius: 14px;
+.intro .right img {
+  width: 100%;
 }

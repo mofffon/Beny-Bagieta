@@ -1,6 +1,7 @@
 .intro {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .intro .left {
@@ -22,12 +23,8 @@
   color: yellow;
 }
 
-.intro .right {
-  background-image: url("../images/bagiety/beny-bagieta-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  border-radius: 14px;
+.intro .right img {
+  width: 100%;
 }
 
 section.food {
